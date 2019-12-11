@@ -32,3 +32,25 @@
   position: absolute;
   width: 1px;
 }
+
+.x-center{
+  display: flex;
+  justify-content: center;
+}
+
+.y-center{
+  display: flex;
+  align-items: center;
+}
+
+.button-style{
+  padding-top: 10px;
+  padding-right: 38px;
+  padding-bottom: 10px;
+  padding-left: 38px;
+
+  color: white;
+
+  border-width: 2px;
+  border-color: white;
+}
