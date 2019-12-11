@@ -5,3 +5,5 @@
 // -----------------------------------------------------------------------------
 
 @include font-face($font-opensans, $base-url + 'fonts/', 'opensans-regular', 'opensans-regular');
+
+@include font-face($font-poppins, $base-url + 'fonts/', 'poppins-bold', 'poppins-bold', 600);
