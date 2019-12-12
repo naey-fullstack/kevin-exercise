@@ -5,28 +5,138 @@
 // -----------------------------------------------------------------------------
 
 .home {
-  transition: all .2s ease-in-out;
-  
+  transition: all 0.2s ease-in-out;
+
   .section-intro {
     height: 905px;
-    
+
     background-color: $brand-color;
   }
 }
 
-.section-intro-content{
+.section-intro-content {
   width: 50%;
 
-  p{
+  p {
     margin-top: 35px;
     margin-bottom: 35px;
   }
-  .button-style{
+  .button-style {
     margin-top: 14px;
   }
 }
 
+.section-about {
+  background-color: $light-grey;
 
+  p {
+    margin-bottom: 80px;
+  }
+
+  h4 {
+    padding-bottom: 4px;
+  }
+
+  h5 {
+    margin-bottom: 5px;
+  }
+
+  .container {
+    height: 1085px;
+
+    .row:nth-child(2) {
+      padding: 20px;
+
+      background-color: white;
+    }
+  }
+
+  .row hr {
+    width: 7%;
+    border-top: 3px;
+    border-color: $brand-color;
+    border-style: solid;
+  }
+}
+
+#profile {
+  width: 535px;
+  height: 642px;
+
+  background-color: $dark-grey;
+}
+
+.progress {
+  margin-bottom: 18px;
+  border-radius: 0;
+}
+
+.progress-bar {
+  background-color: $brand-color;
+}
+
+.section-social {
+  margin-top: 35px;
+}
+
+.about-icons {
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    height: 35px;
+    width: 35px;
+
+    font-size: 15px;
+
+    border: 1px;
+    border-color: $text-color;
+    border-style: solid;
+    border-radius: 100%;
+  }
+}
+
+.section-services {
+  .container {
+    height: 920px;
+  }
+}
+
+.section-title-style {
+  p {
+    margin-bottom: 80px;
+  }
+}
+
+.cards-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 18px;
+  margin-top: 30px;
+
+  background-color: $light-grey;
+
+  h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+
+    border: 2px;
+    border-color: $brand-color;
+    border-style: solid;
+    border-radius: 100%;
+  }
+}
 
 .swiper-container {
   margin-top: 40px;
@@ -46,4 +156,3 @@
   justify-content: center;
   align-items: center;
 }
-

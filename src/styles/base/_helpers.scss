@@ -43,6 +43,16 @@
   align-items: center;
 }
 
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
 .button-style{
   padding-top: 10px;
   padding-right: 38px;
@@ -51,6 +61,7 @@
 
   color: white;
 
+  background-color: transparent;
   border-width: 2px;
   border-color: white;
 }

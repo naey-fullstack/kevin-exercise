@@ -13,6 +13,25 @@ body {
   font-weight: 600;
 }
 
+.navbar-brand {
+  font: {
+    family: $font-poppins;
+    size: 40px;
+  }
+  letter-spacing: 2px;
+  color: white;
+}
+
+.nav-link {
+  font: {
+    family: $font-poppins;
+    size: 13px;
+  }
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+}
+
 .section-intro-content {
   letter-spacing: 1px;
   color: white;
@@ -50,33 +69,28 @@ body {
     }
   }
 
-  .button-style{
-    font: {
-      family: $font-poppins;
-      size: 15px;
-      weight:300
-    }
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
-
 }
 
-.navbar-brand {
-  font: {
-    family: $font-poppins;
-    size: 40px;
+.section-about{
+  h4{
+    font-size: 27px;
   }
-  letter-spacing: 2px;
-  color: white;
+
+  h5{
+    font-size: 15px;
+  }
 }
 
-.nav-link {
-  font: {
-    family: $font-poppins;
-    size: 13px;
+.cards-services{
+  i{
+    color: $brand-color;
+    font-size: 30px;
   }
-  letter-spacing: 2px;
-  color: white;
-  text-transform: uppercase;
+  h4{
+    font-size: 22px;
+  }
+  p{
+    font-size: 15px;
+    text-align: center;
+  }
 }
