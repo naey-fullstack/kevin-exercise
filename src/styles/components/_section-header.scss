@@ -1,0 +1,19 @@
+.section-header-style{
+  text-align: center;
+  h2{
+    text-transform: uppercase;
+  }
+  hr {
+    width: 7%;
+    border-top: 3px;
+    border-color: $brand-color;
+    border-style: solid;
+  }
+  p{
+    font: {
+      family: $font-poppins;
+      size: 15px;
+      weight: 300;
+    }
+  }
+}
