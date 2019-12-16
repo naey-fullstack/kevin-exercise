@@ -37,7 +37,7 @@ body {
   color: white;
   text-align: center;
 
-  h1{
+  h1 {
     font: {
       family: $font-poppins;
       size: 60px;
@@ -45,14 +45,14 @@ body {
     }
   }
 
-  h3{
+  h3 {
     font: {
       family: $font-poppins;
       size: 28px;
       weight: 300;
     }
 
-    span{
+    span {
       font: {
         family: $font-poppins;
         size: 28px;
@@ -61,58 +61,88 @@ body {
     }
   }
 
-  p{
+  p {
     font: {
       family: $font-poppins;
       size: 14px;
       weight: 300;
     }
   }
-
 }
 
-#section-about{
-  h4{
+#section-about {
+  h4 {
     font-size: 27px;
   }
 
-  h5{
+  h5 {
     font-size: 15px;
   }
 }
 
-.cards-services{
-  i{
+.cards-services {
+  i {
     color: $brand-color;
     font-size: 30px;
   }
-  h4{
+  h4 {
     font-size: 22px;
   }
-  p{
+  p {
     font-size: 15px;
     text-align: center;
   }
 }
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+
+#section-contact {
+  p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .input-style {
+    font: {
+      family: $font-poppins;
+      size: 15px;
+      weight: 300;
+    }
+  }
+}
+
+footer {
+  font: {
+    family: $font-poppins;
+    size: 15px;
+    weight: 300;
+  }
+
+  a {
+    font-weight: 400;
+    color: $text-color;
+  }
+}
 
 @media only screen and (max-width: 364px) {
   .section-intro-content {
-    h1{
+    h1 {
       font-size: 40px;
     }
-  
-    h3{
+
+    h3 {
       font-size: 20px;
 
-      span{
+      span {
         font-size: 25px;
       }
     }
-  
-    p{
+
+    p {
       font-size: 13px;
     }
-  
   }
 }

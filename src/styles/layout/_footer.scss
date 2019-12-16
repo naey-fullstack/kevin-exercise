@@ -3,3 +3,8 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+footer {
+  background-color: rgba($color: $light-grey, $alpha: 1);
+  height: 80px;
+}

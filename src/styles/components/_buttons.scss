@@ -15,27 +15,44 @@
 }
 
 .button-download {
-    padding-top: 10px;
-    padding-right: 12px;
-    padding-bottom: 10px;
-    padding-left: 12px;
-    margin-top: 33px;
-  
-    color: $brand-color;
-    font: {
-        weight: 500;
-    }
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  margin-top: 33px;
 
-    background-color: transparent;
-    border-width: 2px;
-    border-radius: 0;
-    border-color: $brand-color;
+  color: $brand-color;
+  font: {
+    weight: 500;
   }
-  
-@media only screen and (max-width: 364px){
-  .button-main {
-    padding:10px;
 
-    font-size:14px;
+  background-color: transparent;
+  border-width: 2px;
+  border-radius: 0;
+  border-color: $brand-color;
+}
+
+.button-submit {
+  width: 130px;
+  height: 45px;
+
+  font: {
+    family: $font-poppins;
+    size: 15px;
+    weight: 300;
+  }
+
+  border: 1px;
+  border-style: solid;
+  border-color: $dark-grey;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 364px) {
+  .button-main {
+    padding: 10px;
+
+    font-size: 14px;
   }
 }

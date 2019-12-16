@@ -29,7 +29,7 @@
 #section-about {
   padding-top: 100px;
   padding-bottom: 100px;
-  
+
   background-color: $light-grey;
 
   p {
@@ -45,8 +45,6 @@
   }
 
   .container {
-    
-
     .row:nth-child(2) {
       padding: 20px;
 
@@ -82,7 +80,7 @@
   margin-top: 35px;
 }
 
-.about-icons {
+.icon-social {
   i {
     display: flex;
     justify-content: center;
@@ -103,11 +101,11 @@
 #section-services {
   padding-top: 100px;
   padding-bottom: 100px;
-}
 
-.section-title-style {
-  p {
-    margin-bottom: 80px;
+  .section-header-style {
+    p {
+      margin-bottom: 80px;
+    }
   }
 }
 
@@ -140,68 +138,120 @@
   }
 }
 
-#section-portfolio{
+#section-portfolio {
   padding-top: 100px;
   padding-bottom: 100px;
-  
+
   background-color: $light-grey;
 
-  img{
-    width:100%;
+  img {
+    width: 100%;
     height: 100%;
   }
 
-  .row div{
+  .row div {
     margin-top: 15px;
     margin-bottom: 15px;
   }
 }
 
+#section-testimonials {
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 38px;
+    width: 38px;
+
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 100%;
+  }
+}
+
 .swiper-container {
   margin-top: 40px;
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: 725px;
   overflow: hidden;
 
-  border: 2px #007aff solid;
+  background-image: url(../../assets/images/testimonials-bg.jpeg);
+  background-position: center;
   border-radius: 3px;
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
+  background-color: rgba($color: $background-black, $alpha: 0.9);
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#section-contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
 
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
 
+    font-size: 20px;
+    color: white;
 
+    background-color: $brand-color;
+    border-style: solid;
+    border-radius: 100%;
+  }
+
+  form {
+    margin-top: 30px;
+  }
+
+  .input-style {
+    width: 100%;
+    height: 45px;
+    padding: 15px;
+
+    border: 1px;
+    border-style: solid;
+    border-color: $dark-grey;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+
+  .textarea-style {
+    height: 190px;
+  }
+}
 
 //Media Query
 @media only screen and (max-width: 1200px) {
   #section-intro {
     height: 700px;
   }
-  
-  #section-about h4{
-    padding-top:20px;
+
+  #section-about h4 {
+    padding-top: 20px;
   }
 
-  #profile,#profile img{
+  #profile,
+  #profile img {
     width: 100%;
     height: 100%;
   }
 
-  .section-social{
+  .section-social {
     margin-top: 0;
   }
 }
 
 @media only screen and (max-width: 992px) {
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -213,14 +263,13 @@
 }
 
 @media only screen and (max-width: 544px) {
-
 }
 
 @media only screen and (max-width: 364px) {
   #section-intro {
     height: 500px;
   }
-  .section-intro-content .button-main{
+  .section-intro-content .button-main {
     margin-top: 0;
   }
 }
