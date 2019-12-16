@@ -33,7 +33,6 @@ body {
 }
 
 .section-intro-content {
-  letter-spacing: 1px;
   color: white;
   text-align: center;
 
@@ -91,6 +90,37 @@ body {
   p {
     font-size: 15px;
     text-align: center;
+  }
+}
+
+#section-testimonials {
+
+  h3 {
+    margin-top: 0;
+
+    font: {
+      size: 33px;
+      weight: 400;
+    }
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  span {
+    font-size: 20px;
+    text-transform: uppercase;
+
+    p {
+      margin-top: 8px;
+
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: capitalize;
+    }
   }
 }
 

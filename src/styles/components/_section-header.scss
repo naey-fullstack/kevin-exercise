@@ -6,48 +6,30 @@
 
     text-align: center;
     text-transform: uppercase;
-  }
-
-  h3 {
-    margin-top: 0;
-
-    font: {
-      size: 33px;
-      weight: 400;
-    }
-    text-align: center;
-  }
-
-  hr {
+  &:after {
+    content: '';
     width: 8%;
 
-    border-top: 3px;
+    border-bottom: 1px;
     border-color: $brand-color;
     border-style: solid;
+    display: block;
+    margin: 13px auto;
   }
+}
 
+ 
   p {
     margin-top: 30px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 
     font-size: 14px;
     text-align: center;
 
     span {
       font-weight: 500;
+      font-size: 14px;
     }
   }
 
-  span {
-    font-size: 20px;
-    text-transform: uppercase;
-
-    p {
-      margin-top: 18px;
-
-      font-weight: 300;
-      text-transform: capitalize;
-    }
-
-  }
 }
