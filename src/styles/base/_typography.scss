@@ -4,8 +4,8 @@
  * Basic typography style for copy text
  */
 body {
-  color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
+  color: $text-color;
 }
 
 .title {
@@ -17,7 +17,7 @@ body {
   font: {
     family: $font-poppins;
     size: 40px;
-  }
+  } ;
   letter-spacing: 2px;
   color: white;
 }
@@ -26,7 +26,7 @@ body {
   font: {
     family: $font-poppins;
     size: 13px;
-  }
+  } ;
   letter-spacing: 2px;
   color: white;
   text-transform: uppercase;
@@ -81,8 +81,8 @@ body {
 
 .cards-services {
   i {
-    color: $brand-color;
     font-size: 30px;
+    color: $brand-color;
   }
   h4 {
     font-size: 22px;
@@ -94,14 +94,13 @@ body {
 }
 
 #section-testimonials {
-
   h3 {
     margin-top: 0;
 
     font: {
       size: 33px;
       weight: 400;
-    }
+    } ;
     text-align: center;
   }
 
@@ -125,14 +124,14 @@ body {
 }
 
 .swiper-slide {
-  text-align: center;
   font-size: 18px;
+  text-align: center;
 }
 
 #section-contact {
   p {
-    text-align: center;
     font-size: 14px;
+    text-align: center;
   }
 
   .input-style {
@@ -157,7 +156,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 364px) {
+@media only screen and (max-width: 992px) {
   .section-intro-content {
     h1 {
       font-size: 40px;
@@ -173,6 +172,15 @@ footer {
 
     p {
       font-size: 13px;
+    }
+  }
+
+  #section-testimonials {
+    h3 {
+      font-size: 25px;
+    }
+    p {
+      margin-bottom: 55px;
     }
   }
 }

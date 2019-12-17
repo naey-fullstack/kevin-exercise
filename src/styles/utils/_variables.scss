@@ -5,17 +5,17 @@
 // -----------------------------------------------------------------------------
 
 /// Regular font family
-$font-opensans: 'Open Sans';
+$font-opensans: "Open Sans";
 
 // Poppins
-$font-poppins: 'Poppins';
+$font-poppins: "Poppins";
 
 /// @type List
-$text-font-stack: $font-poppins, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$text-font-stack: $font-poppins, "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
 
 /// Code (monospace) font family
 /// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+$code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco", monospace !default;
 
 /// Copy text color
 /// @type Color
@@ -45,4 +45,4 @@ $background-black: #2e2e2e !default;
 /// @type String
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: '../assets/' !default;
+$base-url: "../assets/" !default;

@@ -6,19 +6,19 @@
 
     text-align: center;
     text-transform: uppercase;
-  &:after {
-    content: '';
-    width: 8%;
+    &:after {
+      content: "";
 
-    border-bottom: 1px;
-    border-color: $brand-color;
-    border-style: solid;
-    display: block;
-    margin: 13px auto;
+      display: block;
+      margin: 13px auto;
+      width: 75px;
+
+      border-bottom: 1px;
+      border-color: $brand-color;
+      border-style: solid;
+    }
   }
-}
 
- 
   p {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -27,9 +27,20 @@
     text-align: center;
 
     span {
-      font-weight: 500;
       font-size: 14px;
+      font-weight: 500;
     }
   }
+}
 
+@media only screen and (max-width: 992px) {
+  .section-header-style {
+    h2 {
+      font-size: 25px;
+    }
+    p {
+      margin-top: 25px;
+      margin-bottom: 85px;
+    }
+  }
 }

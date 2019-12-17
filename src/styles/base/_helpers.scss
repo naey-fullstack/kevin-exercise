@@ -10,9 +10,10 @@
  *    See: https://code.google.com/p/chromium/issues/detail?id=457146
  */
 .hide-text {
-  overflow: hidden;
   padding: 0;
-  /* 1 */
+  overflow: hidden;
+/* 1 */
+
   text-indent: 101%;
   white-space: nowrap;
 }
@@ -23,42 +24,45 @@
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
 .visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
   position: absolute;
+
+  padding: 0;
+  margin: -1px;
   width: 1px;
+  height: 1px;
+  overflow: hidden;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
 }
 
-.x-center{
+.x-center {
   display: flex;
   justify-content: center;
 }
 
-.x-between{
+.x-between {
   display: flex;
   justify-content: space-between;
 }
 
-.y-center{
+.y-center {
   display: flex;
   align-items: center;
 }
 
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   flex-direction: row;
 }
 
-.button-style{
+.button-style {
   padding-top: 10px;
   padding-right: 38px;
   padding-bottom: 10px;
