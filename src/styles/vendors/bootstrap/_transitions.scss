@@ -2,8 +2,8 @@
 
 .fade {
   opacity: 0;
-  @include transition($transition-fade);
 
+@include transition($transition-fade);
   &.show {
     opacity: 1;
   }
@@ -30,7 +30,9 @@ tbody {
 
 .collapsing {
   position: relative;
+
   height: 0;
   overflow: hidden;
-  @include transition($transition-collapse);
+
+@include transition($transition-collapse);
 }

@@ -14,11 +14,8 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .navbar-expand-md .navbar-collapse {
-    display: none!important;
-  }
-  .navbar-expand-md .navbar-toggler {
-    display: block!important;
+  .navbar-expand-md .navbar-nav .nav-link {
+    letter-spacing: 0;
   }
 }
 
@@ -35,5 +32,8 @@
   .nav-item {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    letter-spacing: 2px;
   }
 }
